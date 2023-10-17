@@ -1,0 +1,20 @@
+vim.opt.termguicolors = true
+
+function SetColor(color)
+	color = color or "dracula"
+	vim.cmd.colorscheme(color)
+
+	vim.api.nvim_set_hl(0, "Normal", { bg = "#120E27" })
+	vim.api.nvim_set_hl(0, "Visual", { bg = "#0E0A23", fg = "#F8F8F2" })
+
+	vim.api.nvim_set_hl(0, "NormalFloat", { bg = "black" })
+	vim.api.nvim_set_hl(0, "ColorColumn", { bg = "none" })
+	vim.api.nvim_set_hl(0, "LineNr", { bg = "none" })
+
+	-- vim.api.nvim_set_hl(0, "Normal", {bg = "none"})
+	-- vim.api.nvim_set_hl(0, "NormalFloat", {bg = "none"})
+	-- vim.api.nvim_set_hl(0, "ColorColumn", {bg = "none"})
+	-- vim.api.nvim_set_hl(0, "LineNr", {bg = "none"})
+end
+
+SetColor()
