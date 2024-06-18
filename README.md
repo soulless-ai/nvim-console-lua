@@ -55,3 +55,11 @@ The configuration is organized as follows:
 
 ## Usage
 After cloning the repository and running ```  :PackerSync  ```, you can start using Neovim with the configured plugins and settings.
+
+<table>
+  <tr>
+    <td><img src="./README-resource/screen-1.png" alt="Screen 1"></td>
+    <td><img src="./README-resource/screen-2.png" alt="Screen 2"></td>
+    <td><img src="./README-resource/screen-3.png" alt="Screen 3"></td>
+  </tr>
+</table>
